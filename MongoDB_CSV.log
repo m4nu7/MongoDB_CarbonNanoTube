@@ -1,0 +1,24 @@
+2023-04-01 19:30:44,427 - root - INFO - Filename provided as input, filename is fff
+2023-04-01 19:30:44,427 - root - INFO - ('fff', ' is not a valid csv file')
+2023-04-01 19:30:44,427 - root - INFO - Asking user to enter a valid filepath
+2023-04-01 19:31:57,620 - root - INFO - Filename provided as input, filename is fff
+2023-04-01 19:31:57,621 - root - INFO - ('fff', ' is not a valid csv file')
+2023-04-01 19:31:57,621 - root - INFO - Asking user to enter a valid filepath
+2023-04-01 19:31:59,847 - root - INFO - Filename provided as input, filename is 123
+2023-04-01 19:31:59,847 - root - INFO - ('123', ' is not a valid csv file')
+2023-04-01 19:31:59,847 - root - INFO - Asking user to enter a valid filepath
+2023-04-01 19:32:25,807 - root - INFO - Filename provided as input, filename is carbon_nanoubes.csv
+2023-04-01 19:32:25,808 - root - INFO - ('carbon_nanoubes.csv', ' is not a valid csv file')
+2023-04-01 19:32:25,808 - root - INFO - Asking user to enter a valid filepath
+2023-04-01 19:32:45,805 - root - INFO - Filename provided as input, filename is carbon_nanotubes.csv
+2023-04-01 19:32:45,805 - root - INFO - carbon_nanotubes.csv is a csv file 
+2023-04-01 19:33:20,060 - root - ERROR - ERROR !!gggg:27017: [Errno 11001] getaddrinfo failed, Timeout: 30s, Topology Description: <TopologyDescription id: 6428bf228df57fe120579e98, topology_type: Unknown, servers: [<ServerDescription ('gggg', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('gggg:27017: [Errno 11001] getaddrinfo failed')>]>
+2023-04-01 19:33:41,574 - root - INFO - valid Connection string entered !!
+2023-04-01 19:33:54,003 - root - INFO - Collection Name : CNT_Collection 
+ Database Name : Database(MongoClient(host=['ac-yuamjsa-shard-00-01.2pnukrk.mongodb.net:27017', 'ac-yuamjsa-shard-00-02.2pnukrk.mongodb.net:27017', 'ac-yuamjsa-shard-00-00.2pnukrk.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-hn71uu-shard-0', tls=True), 'CNT_DB')
+2023-04-01 19:33:54,003 - root - INFO - Insert to DB operation started on carbon_nanotubes.csv
+2023-04-01 19:33:54,004 - root - INFO - carbon_nanotubes.csv opened for read and write to DB operation 
+2023-04-01 19:41:13,019 - root - INFO - 10721 documents inserted into CNT_Collection collection 
+2023-04-01 19:41:13,019 - root - INFO - Querying DB for {'Chiral indice n': '2'} matched documents 
+2023-04-01 19:41:13,065 - root - INFO - Deleting documents in CNT_Collection where {'Chiral indice n': '2'} matches are found
+2023-04-01 19:41:13,112 - root - INFO - Querying DB for {'Chiral indice n': '2'} matched documents 
